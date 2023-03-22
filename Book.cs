@@ -10,10 +10,10 @@ namespace SLVP_Week4_Ebookreader
     {
         public string Author { get; set; }
         public string Title { get; set; }
-        public DateTime ReleaseDate { get; set; }
+        public DateOnly ReleaseDate { get; set; }
         public int Pages { get; set; }
 
-        public Book(string author, string title, DateTime releaseDate, int pages)
+        public Book(string author, string title, DateOnly releaseDate, int pages)
         {
             Author = author;
             Title = title;
